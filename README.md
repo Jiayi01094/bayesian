@@ -124,7 +124,7 @@ class ReplayBuffer:
 | Loss Function    | MSE     | Mean Squared Error between predicted Q-values and target Q-values. |
 
 **D. Optimization Strategy**
-We use the **Adam Optimizer** with ** Mean Squared Error (MSE)** loss.
+We use the Adam Optimizer with Mean Squared Error (MSE) loss.
 
 1. Prediction: The Main Network predicts Q(s,a)
 
@@ -132,7 +132,7 @@ We use the **Adam Optimizer** with ** Mean Squared Error (MSE)** loss.
 
 3. Loss: MSE(Prediction, Target).
 
-4. Gradient Clipping: We clip gradients to 10.0 to prevent "exploding gradients" when the reward signal is unstable.
+4. Gradient Clipping: We clip gradients to 10.0 to prevent exploding gradients when the reward signal is unstable.
 
 ## Human Play V.S. Final Model
 [add visual here]
