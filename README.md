@@ -46,7 +46,6 @@ $$
 
 
 ## Quick Demo Time (Baby Model)
-- [add visual here]
 
 ## Model Architecture and Implementation ([train_dqn.py](game/train_dqn.py))
 **A. The Network Architecture**
@@ -135,7 +134,6 @@ We use the Adam Optimizer with Mean Squared Error (MSE) loss.
 4. Gradient Clipping: We clip gradients to 10.0 to prevent exploding gradients when the reward signal is unstable.
 
 ## Human Play V.S. Final Model
-[add visual here]
 
 ## How to Run
 
@@ -145,4 +143,7 @@ py main.py
 ```
 
 ## Reference
+This project implements a RL agent trained to play a bullet-hell shooter game.
+
+The simulation environment is adapted from **[PlaneGame](game/PlaneGame)**, an open-source Python/Pygame shooter originally created by **Yongyu Yan** and **Yue Zhuo**. We modified the source code to support frame stacking, reward shaping, and a Gym-compatible interface for AI training.
 
