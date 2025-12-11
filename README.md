@@ -1,4 +1,4 @@
-# Plane War AI: Autonomous Game Control under Uncertainty (working readme file)
+# Plane War AI: Autonomous Game Control under Uncertainty
 
 ### Group Members
 - Eddie Tian, Jiayi Wang, Sebastian De La Cruz
